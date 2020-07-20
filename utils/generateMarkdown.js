@@ -47,7 +47,7 @@ function generateMarkdown(data) {
   ## Contributing
   ${data.contribution_guidelines}
 
-  ## tests
+  ## Tests
   ${data.test_instructions}
 
   ## Questions
