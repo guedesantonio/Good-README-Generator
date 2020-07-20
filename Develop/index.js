@@ -59,9 +59,6 @@ function promptUser() {
 }
 
 // function to write README file
-///////////////// function writeToFile(fileName, data) {
-////////////////// }
-
 const writeToFileAsync = util.promisify(fs.writeFile);
 
 // function to initialize program
