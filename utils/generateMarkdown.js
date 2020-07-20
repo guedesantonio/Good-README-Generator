@@ -35,6 +35,25 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Questions](#questions)
 
+  ## Installation
+  ${data.install_instructions}
+
+  ## Usage
+  ${data.usage_information}
+
+  ## License
+  This application uses ${data.license}
+
+  ## Contributing
+  ${data.contribution_guidelines}
+
+  ## tests
+  ${data.test_instructions}
+
+  ## Questions
+  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. 
+  You can find more about my work at [Github profile](https://github.com/${data.github}). 
+
 `;
 }
 
