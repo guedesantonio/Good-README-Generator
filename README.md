@@ -28,7 +28,7 @@
   ## Contributing
   This project was written by myself for my Web Development Coding Bootcamp at the University of Sydney.
 
-  ## tests
+  ## Tests
   In order to execute tests please run npm run test in your command line.
 
   ## Questions
