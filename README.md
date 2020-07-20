@@ -15,16 +15,18 @@
   * [Questions](#questions)
 
   ## Installation
-  npm install
+
+  The user needs to run `npm install` in the command line in order to install the required dependencies for this app on your system. In order to run this app please type and execute `node index.js` in the command line.
+
 
   ## Usage
-   First the user needs to run the app in your system's command line by typing node index.js and it will then ask the user a series of questions to create an already formatted README.md file for your project using your inputs as the user. It will include a main title, with all the sub-headings for 'Description', a clickable 'Table of contents', 'Installation', 'Usage', 'License', 'Contributing', 'Tests' and 'Questions' sections. It will also shows a badge with a link to the type of license the user chose for the project at the top of the README.md file as a badge. Please watch a walkthrough video of how to use this app here.
-
+   First the user needs to run the app in your system's command line by typing node index.js and it will then ask the user a series of questions to create an already formatted README.md file for your project using your inputs as the user. It will include a main title, with all the sub-headings for 'Description', a clickable 'Table of contents', 'Installation', 'Usage', 'License', 'Contributing', 'Tests' and 'Questions' sections. It will also shows a badge with a link to the type of license the user chose for the project at the top of the README.md file as a badge. Please watch a walkthrough video of how to use this app [here](https://drive.google.com/file/d/1AE1DzecLUXgLj5hvQ5gdt0ZgAPMQrXB-/view).
+   
   ## License
   This application uses MIT License
 
   ## Contributing
-  This project was written by me as a homework activity for my Web Development Coding Bootcamp at the University of Sydney.
+  This project was written by myself for my Web Development Coding Bootcamp at the University of Sydney.
 
   ## tests
   In order to execute tests please run npm run test in your command line.
