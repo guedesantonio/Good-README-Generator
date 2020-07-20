@@ -19,7 +19,23 @@ function generateMarkdown(data) {
     licenseType = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'
   }
   
-  return `# ${data.title}`;
+  return `# ${data.title}
+
+  ${licenseBadge}
+
+  ## Description
+  ${data.description}
+
+  ## Table of contents
+  
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+
+`;
 }
 
 module.exports = generateMarkdown;
