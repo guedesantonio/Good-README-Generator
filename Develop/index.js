@@ -59,7 +59,7 @@ function promptUser() {
 }
 
 // function to write README file
-const writeToFileAsync = util.promisify(fs.writeFile);
+// ???
 
 // function to initialize program
 
